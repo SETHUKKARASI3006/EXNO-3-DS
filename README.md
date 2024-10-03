@@ -1,16 +1,16 @@
-## EXNO-3-DS
+# EXNO-3-DS
 
-# AIM:
+## AIM:
 To read the given data and perform Feature Encoding and Transformation process and save the data to a file.
 
-# ALGORITHM:
+## ALGORITHM:
 STEP 1:Read the given Data.<br>
 STEP 2:Clean the Data Set using Data Cleaning Process.<br>
 STEP 3:Apply Feature Encoding for the feature in the data set.<br>
 STEP 4:Apply Feature Transformation for the feature in the data set.<br>
 STEP 5:Save the data to the file.
 
-# FEATURE ENCODING:
+## FEATURE ENCODING:
 1. Ordinal Encoding
 An ordinal encoding involves mapping each unique label to an integer value. This type of encoding is really only appropriate if there is a known relationship between the categories. This relationship does exist for some of the variables in our dataset, and ideally, this should be harnessed when preparing the data.
 2. Label Encoding
@@ -20,17 +20,17 @@ Binary encoding converts a category into binary digits. Each binary digit create
 4. One Hot Encoding
 We use this categorical data encoding technique when the features are nominal(do not have any order). In one hot encoding, for each level of a categorical feature, we create a new variable. Each category is mapped with a binary variable containing either 0 or 1. Here, 0 represents the absence, and 1 represents the presence of that category.
 
-# Methods Used for Data Transformation:
-  # 1. FUNCTION TRANSFORMATION
+## Methods Used for Data Transformation:
+  ### 1. FUNCTION TRANSFORMATION
 • Log Transformation<br>
 • Reciprocal Transformation<br>
 • Square Root Transformation<br>
 • Square Transformation
-  # 2. POWER TRANSFORMATION
+  ### 2. POWER TRANSFORMATION
 • Boxcox method<br>
 • Yeojohnson method
 
-# CODING AND OUTPUT:
+## CODING AND OUTPUT:
   <h2>Developed By: SETHUKKARASI C</h2>
   <h2>Register Number:212223230201</h2>
 
@@ -251,7 +251,7 @@ We use this categorical data encoding technique when the features are nominal(do
 
 
 
-# RESULT:
+## RESULT:
     Thus the given data, Feature Encoding, Transformation process and save the data to a file was performed successfully.
 
        
